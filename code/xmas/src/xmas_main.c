@@ -178,5 +178,6 @@ void run_xmas() {
 		draw_trees();
 		draw_santa(s_x, s_y);
 		s_x = (s_x + 1) % LCD_WIDTH;
+		HAL_Delay(50);
 	}
 }
